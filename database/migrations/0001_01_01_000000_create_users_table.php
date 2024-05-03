@@ -33,7 +33,7 @@ return new class extends Migration
             $table->integer('team_id');
             $table->integer('points');
 
-            $table->primary('id');
+            //$table->primary('id');
             $table->index(['login', 'status','name','id']);
         });
 

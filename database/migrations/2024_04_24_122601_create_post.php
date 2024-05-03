@@ -25,7 +25,7 @@ return new class extends Migration
             $table->string('media_type');
             $table->tinyInteger('private');
 
-            $table->primary('id');
+            //$table->primary('id');
             $table->index(['name', 'processed','ext','description','id']);
         });
 
@@ -37,7 +37,7 @@ return new class extends Migration
             $table->tinyInteger('deleted');
             $table->string('comment');
 
-            $table->primary('id');
+            //$table->primary('id');
         });
 
         Schema::create('votes', function (Blueprint $table) {
@@ -46,8 +46,8 @@ return new class extends Migration
             $table->integer('poster_id');
             $table->integer('voter_id');
             $table->tinyInteger('deleted');
-            
-            $table->primary('id');
+
+            //$table->primary('id');
         });
 
     }

@@ -20,7 +20,7 @@ return new class extends Migration
             $table->Integer('user_id');
             $table->Integer('friend_id');
 
-            $table->primary('id');
+            //$table->primary('id');
         });
     }
 
