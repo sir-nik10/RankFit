@@ -25,7 +25,7 @@ return new class extends Migration
             $table->string('city');
             $table->string('zip');
 
-            $table->primary('id');
+            //$table->primary('id');
         });
     }
 

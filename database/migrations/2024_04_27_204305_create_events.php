@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('type');
 
-            $table->primary('id');
+            //$table->primary('id');
         });
 
         Schema::create('events_users', function (Blueprint $table) {
@@ -31,7 +31,7 @@ return new class extends Migration
             $table->integer('event_id');
             $table->integer('log_id');
 
-            $table->primary('id');
+            //$table->primary('id');
         });
     }
 

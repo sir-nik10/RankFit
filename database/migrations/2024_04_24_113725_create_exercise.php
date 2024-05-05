@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('unit');
             $table->string('description');
 
-            $table->primary('id');
+            //$table->primary('id');
 
         });
 
